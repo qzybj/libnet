@@ -8,6 +8,11 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:2.3.3'
 
+        //自动上传至Bintray插件
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.2'
+        //自动化Maven打包插件,添加JitPack依赖
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
+
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
         // support butterknife for library project
